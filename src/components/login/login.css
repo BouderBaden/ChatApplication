@@ -1,0 +1,103 @@
+.login{
+    border-radius: 5px;
+    padding: 50px 40px;
+    border: 1px solid lightgray;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+    /* login.css */
+.password-container {
+    width: 100%;
+    position: relative;
+}
+
+.password-container .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.caps-lock-warning {
+    color: white;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+    .item{
+        font-size: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        form{
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        input{
+            font-size: 18px;
+            padding: 20px;
+            width: 100%;
+            border: none;
+            outline: none;
+            background-color: rgba(17, 25, 40, 0.6);
+            color: white;
+            border-radius: 5px;
+        }
+
+        label{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        button{
+            font-size: 18px;
+            width: 100%;
+            padding: 20px;
+            border: none;
+            background-color: #1f8ef1;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 500;
+
+            &:hover{
+                background-color: #0f8bf8;
+
+            }
+        }
+        .link{
+            text-decoration: underline;
+            color: white;
+        }
+    }
+
+    .separator{
+        height: 80%;
+        width: 2px;
+        background-color: #dddddd35;
+    }
+}
